@@ -24,7 +24,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String number = phoneno.getText().toString().trim();
-                if (number . isEmpty() || number.length()<10){
+                if (number . isEmpty() || number.length()<9){
                     phoneno.setError("Enter a valid phone number");
                     phoneno.requestFocus();
                     return;

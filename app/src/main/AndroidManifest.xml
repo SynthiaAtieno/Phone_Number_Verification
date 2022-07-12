@@ -14,13 +14,13 @@
         android:theme="@style/Theme.Phone_NumberAuthentication"
         tools:targetApi="31">
         <activity
-            android:name=".Login"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Phone_Verification"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

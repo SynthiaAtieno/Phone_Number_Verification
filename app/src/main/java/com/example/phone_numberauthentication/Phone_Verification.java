@@ -101,6 +101,7 @@ EditText code1;
             String code = phoneAuthCredential.getSmsCode();
             if (code != null)
             {
+                code1.setText(code);
                 verifyCode(code);
             }
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="34dp"
+    tools:context=".Phone_Verification">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Verification"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_gravity="top"/>
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/code"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Code Sent To You"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Account"
+        android:layout_marginTop="16dp"
+        android:id="@+id/verify"/>
+</LinearLayout>
